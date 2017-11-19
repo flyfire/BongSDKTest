@@ -65,6 +65,18 @@ public class SolarexNotificationListener extends NotificationListenerService {
                             throwable.printStackTrace();
                         }
                     });
+                } else if (pkgName.equals("com.android.mms")) {
+                    manager.sendAddSms("NDY", content, 0, new ResultCallback() {
+                        @Override
+                        public void finished() {
+                            Log.d(TAG, "send sms message : " + content);
+                        }
+
+                        @Override
+                        public void onError(Throwable throwable) {
+                            throwable.printStackTrace();
+                        }
+                    });
                 }
             }
         }
