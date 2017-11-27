@@ -33,12 +33,12 @@ public class SolarexNotificationListener extends NotificationListenerService {
                 manager.setMessageNotifyEnable(true, true, true, true, new ResultCallback() {
                     @Override
                     public void finished() {
-
+                        Log.d(TAG, "finished");
                     }
 
                     @Override
                     public void onError(Throwable throwable) {
-
+                        throwable.printStackTrace();
                     }
                 });
                 if (pkgName.equals("com.tencent.mobileqq")) {
