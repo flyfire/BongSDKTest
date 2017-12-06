@@ -1,0 +1,287 @@
+Current Notification Manager state:
+  Notification List:
+    NotificationRecord(0x067d5d38: pkg=android user=UserHandle{0} id=17039606 tag=null score=10 key=0|android|17039606|null|1000: Notification(pri=1 contentView=null vibrate=null sound=null defaults=0x0 flags=0x0 color=0xff607d8b vis=PRIVATE))
+      uid=1000 userId=0
+      icon=Icon(typ=RESOURCE pkg=android id=0x0108008a) / android:drawable/stat_sys_warning
+      pri=1 score=10
+      key=0|android|17039606|null|1000
+      seen=false
+      groupKey=0|android|17039606|null|1000
+      contentIntent=PendingIntent{717f111: PendingIntentRecord{4cb0276 android startActivity}}
+      deleteIntent=null
+      tickerText=null
+      contentView=null
+      defaults=0x00000000 flags=0x00000000
+      sound=null
+      audioStreamType=-1
+      audioAttributes=AudioAttributes: usage=5 content=4 flags=0x0 tags=
+      color=0xff607d8b
+      vibrate=null
+      led=0x00000000 onMs=0 offMs=0
+      extras={
+        android.title=String
+        android.subText=null
+        android.showChronometer=Boolean (false)
+        android.icon=Icon (Icon(typ=RESOURCE pkg=android id=0x0108008a))
+        android.text=String
+        android.progress=Integer (0)
+        android.progressMax=Integer (0)
+        android.showWhen=Boolean (false)
+        android.rebuild.applicationInfo=ApplicationInfo (ApplicationInfo{2743077 android})
+        android.rebuild.contentView=Boolean (true)
+        android.infoText=null
+        android.originatingUserId=Integer (0)
+        android.progressIndeterminate=Boolean (false)
+        android.rebuild=Boolean (true)
+      }
+      stats=SingleNotificationStats{posttimeElapsedMs=58012, posttimeToFirstClickMs=-1, posttimeToDismissMs=-1, airtimeCount=0, airtimeMs=0, currentAirtimeStartElapsedMs=-1, airtimeExpandedMs=0, posttimeToFirstVisibleExpansionMs=-1, currentAirtimeExpandedSEMs=-1}
+      mContactAffinity=0.0
+      mRecentlyIntrusive=false
+      mPackagePriority=0
+      mPackageVisibility=-1000
+      mIntercept=false
+      mGlobalSortKey=intrsv=1:grnk=0x0000:gsmry=1:nsk:rnk=0x0000
+      mRankingTimeMs=1512532180952
+      mCreationTimeMs=1512532180954
+      mVisibleSinceMs=0
+      mUpdateTimeMs=1512532180954
+    NotificationRecord(0x054714e4: pkg=android user=UserHandle{-1} id=17040369 tag=null score=-10 key=-1|android|17040369|null|1000: Notification(pri=-1 contentView=null vibrate=null sound=null tick defaults=0x0 flags=0x2 color=0xff607d8b vis=PUBLIC))
+      uid=1000 userId=-1
+      icon=Icon(typ=RESOURCE pkg=android id=0x01080653) / android:drawable/stat_sys_adb
+      pri=-1 score=-10
+      key=-1|android|17040369|null|1000
+      seen=false
+      groupKey=-1|android|17040369|null|1000
+      contentIntent=PendingIntent{3f98d4d: PendingIntentRecord{dcd002 android startActivity}}
+      deleteIntent=null
+      tickerText=已连接到USB调试
+      contentView=null
+      defaults=0x00000000 flags=0x00000002
+      sound=null
+      audioStreamType=-1
+      audioAttributes=AudioAttributes: usage=5 content=4 flags=0x0 tags=
+      color=0xff607d8b
+      vibrate=null
+      led=0x00000000 onMs=0 offMs=0
+      extras={
+        android.title=String
+        android.subText=null
+        android.showChronometer=Boolean (false)
+        android.icon=Icon (Icon(typ=RESOURCE pkg=android id=0x01080653))
+        android.text=String
+        android.progress=Integer (0)
+        android.progressMax=Integer (0)
+        android.showWhen=Boolean (true)
+        android.rebuild.applicationInfo=ApplicationInfo (ApplicationInfo{2743077 android})
+        android.rebuild.contentView=Boolean (true)
+        android.infoText=null
+        android.originatingUserId=Integer (0)
+        android.progressIndeterminate=Boolean (false)
+        android.rebuild=Boolean (true)
+      }
+      stats=SingleNotificationStats{posttimeElapsedMs=33624, posttimeToFirstClickMs=-1, posttimeToDismissMs=-1, airtimeCount=0, airtimeMs=0, currentAirtimeStartElapsedMs=-1, airtimeExpandedMs=0, posttimeToFirstVisibleExpansionMs=-1, currentAirtimeExpandedSEMs=-1}
+      mContactAffinity=0.0
+      mRecentlyIntrusive=false
+      mPackagePriority=0
+      mPackageVisibility=-1000
+      mIntercept=false
+      mGlobalSortKey=intrsv=1:grnk=0x0001:gsmry=1:nsk:rnk=0x0001
+      mRankingTimeMs=1512532156566
+      mCreationTimeMs=1512532156566
+      mVisibleSinceMs=0
+      mUpdateTimeMs=1512532156566
+    NotificationRecord(0x08f15d13: pkg=android user=UserHandle{-1} id=17040363 tag=null score=-20 key=-1|android|17040363|null|1000: Notification(pri=-2 contentView=null vibrate=null sound=null tick defaults=0x0 flags=0x2 color=0xff607d8b vis=PUBLIC))
+      uid=1000 userId=-1
+      icon=Icon(typ=RESOURCE pkg=android id=0x01080653) / android:drawable/stat_sys_adb
+      pri=-2 score=-20
+      key=-1|android|17040363|null|1000
+      seen=false
+      groupKey=-1|android|17040363|null|1000
+      contentIntent=PendingIntent{8d29b50: PendingIntentRecord{cdeb149 android startActivity}}
+      deleteIntent=null
+      tickerText=正在通过 USB 充电
+      contentView=null
+      defaults=0x00000000 flags=0x00000002
+      sound=null
+      audioStreamType=-1
+      audioAttributes=AudioAttributes: usage=5 content=4 flags=0x0 tags=
+      color=0xff607d8b
+      vibrate=null
+      led=0x00000000 onMs=0 offMs=0
+      extras={
+        android.title=String
+        android.subText=null
+        android.showChronometer=Boolean (false)
+        android.icon=Icon (Icon(typ=RESOURCE pkg=android id=0x01080653))
+        android.text=String
+        android.progress=Integer (0)
+        android.progressMax=Integer (0)
+        android.showWhen=Boolean (true)
+        android.rebuild.applicationInfo=ApplicationInfo (ApplicationInfo{2743077 android})
+        android.rebuild.contentView=Boolean (true)
+        android.infoText=null
+        android.originatingUserId=Integer (0)
+        android.progressIndeterminate=Boolean (false)
+        android.rebuild=Boolean (true)
+      }
+      stats=SingleNotificationStats{posttimeElapsedMs=33621, posttimeToFirstClickMs=-1, posttimeToDismissMs=-1, airtimeCount=0, airtimeMs=0, currentAirtimeStartElapsedMs=-1, airtimeExpandedMs=0, posttimeToFirstVisibleExpansionMs=-1, currentAirtimeExpandedSEMs=-1}
+      mContactAffinity=0.0
+      mRecentlyIntrusive=false
+      mPackagePriority=0
+      mPackageVisibility=-1000
+      mIntercept=false
+      mGlobalSortKey=intrsv=1:grnk=0x0002:gsmry=1:nsk:rnk=0x0002
+      mRankingTimeMs=1512532156562
+      mCreationTimeMs=1512532156562
+      mVisibleSinceMs=0
+      mUpdateTimeMs=1512532156562
+  
+  mUseAttentionLight=false
+  mNotificationPulseEnabled=true
+  mSoundNotificationKey=null
+  mVibrateNotificationKey=null
+  mDisableNotificationEffects=false
+  mCallState=CALL_STATE_IDLE
+  mSystemReady=true
+  mArchive=Archive (0 notifications)
+
+  Usage Stats:
+    AggregatedStats{
+      key='__global',
+      numPostedByApp=3,
+      numUpdatedByApp=0,
+      numRemovedByApp=0,
+      numPeopleCacheHit=1,
+      numWithStaredPeople=0,
+      numWithValidPeople=0,
+      numPeopleCacheMiss=0,
+      numBlocked=0,
+    }
+    mStatsArrays.size(): 1
+    post_frequency{user_id=-1,pkg=android,day=0,count=10}
+    post_frequency{user_id=-1,pkg=android,day=1,count=6}
+    post_frequency{user_id=-1,pkg=android,day=2,count=25}
+    post_frequency{user_id=-1,pkg=android,day=3,count=9}
+    post_frequency{user_id=-1,pkg=android,day=4,count=6}
+    post_frequency{user_id=-1,pkg=android,day=5,count=20}
+    post_frequency{user_id=-1,pkg=android,day=6,count=12}
+    post_frequency{user_id=-1,pkg=android,day=7,count=53}
+    post_frequency{user_id=0,pkg=android,day=0,count=1}
+    post_frequency{user_id=0,pkg=com.android.systemui,day=0,count=6}
+    post_frequency{user_id=0,pkg=com.android.updater,day=0,count=1}
+    post_frequency{user_id=0,pkg=com.tencent.mm,day=0,count=1}
+    post_frequency{user_id=0,pkg=com.tencent.mobileqq,day=0,count=7}
+    post_frequency{user_id=0,pkg=com.xiaomi.xmsf,day=0,count=7}
+    post_frequency{user_id=0,pkg=com.android.systemui,day=1,count=13}
+    post_frequency{user_id=0,pkg=com.android.updater,day=1,count=1}
+    post_frequency{user_id=0,pkg=com.xiaomi.market,day=1,count=1}
+    post_frequency{user_id=0,pkg=com.xiaomi.xmsf,day=1,count=19}
+    post_frequency{user_id=0,pkg=com.android.systemui,day=2,count=7}
+    post_frequency{user_id=0,pkg=com.android.updater,day=2,count=3}
+    post_frequency{user_id=0,pkg=com.miui.systemAdSolution,day=2,count=1}
+    post_frequency{user_id=0,pkg=com.xiaomi.xmsf,day=2,count=67}
+    post_frequency{user_id=0,pkg=com.android.systemui,day=3,count=2}
+    post_frequency{user_id=0,pkg=com.android.updater,day=3,count=2}
+    post_frequency{user_id=0,pkg=com.miui.cloudservice,day=3,count=1}
+    post_frequency{user_id=0,pkg=com.miui.gallery,day=3,count=1}
+    post_frequency{user_id=0,pkg=com.xiaomi.market,day=3,count=1}
+    post_frequency{user_id=0,pkg=com.xiaomi.xmsf,day=3,count=44}
+    post_frequency{user_id=0,pkg=com.android.updater,day=4,count=1}
+    post_frequency{user_id=0,pkg=com.xiaomi.xmsf,day=4,count=30}
+    post_frequency{user_id=0,pkg=com.xiaomi.market,day=5,count=1}
+    post_frequency{user_id=0,pkg=com.xiaomi.xmsf,day=5,count=6}
+    post_frequency{user_id=0,pkg=android,day=6,count=3}
+    post_frequency{user_id=0,pkg=com.miui.cloudbackup,day=6,count=1}
+    post_frequency{user_id=0,pkg=com.tencent.mm,day=6,count=4}
+    post_frequency{user_id=0,pkg=com.xiaomi.market,day=6,count=1}
+    post_frequency{user_id=0,pkg=com.xiaomi.xmsf,day=6,count=10}
+    post_frequency{user_id=0,pkg=com.tencent.mm,day=7,count=1}
+    post_frequency{user_id=0,pkg=com.xiaomi.market,day=7,count=1}
+    post_frequency{user_id=0,pkg=com.xiaomi.xmsf,day=7,count=8}
+
+  Zen Mode:
+    mInterruptionFilter=1
+    mZenMode=ZEN_MODE_OFF
+    mDefaultConfig=allow(calls=true,callsFrom=3,repeatCallers=false,messages=false,messagesFrom=3,events=false,reminders=true)
+      manualRule=null
+      automaticRules=ZenRule[enabled=false,snoozing=false,name=周末,zenMode=ZEN_MODE_ALARMS,conditionId=condition://android/schedule?days=6.7&start=23.30&end=10.0,condition=null,component=null]
+                     ZenRule[enabled=false,snoozing=false,name=周一至周五夜间,zenMode=ZEN_MODE_ALARMS,conditionId=condition://android/schedule?days=1.2.3.4.5&start=22.0&end=7.0,condition=null,component=null]
+                     ZenRule[enabled=false,snoozing=false,name=活动,zenMode=ZEN_MODE_ALARMS,conditionId=condition://android/event?userId=-10000&calendar=&reply=1,condition=null,component=null]
+    mConfigs[u=0]=allow(calls=true,callsFrom=1,repeatCallers=false,messages=false,messagesFrom=1,events=false,reminders=true)
+      manualRule=null
+      automaticRules=ZenRule[enabled=false,snoozing=false,name=周一至周五夜间,zenMode=ZEN_MODE_ALARMS,conditionId=condition://android/schedule?days=1.2.3.4.5&start=22.0&end=7.0,condition=Condition[id=condition://android/schedule?days=1.2.3.4.5&start=22.0&end=7.0,summary=...,line1=...,line2=...,icon=0,state=STATE_FALSE,flags=2],component=ComponentInfo{android/com.android.server.notification.ScheduleConditionProvider}]
+                     ZenRule[enabled=false,snoozing=false,name=周末,zenMode=ZEN_MODE_ALARMS,conditionId=condition://android/schedule?days=6.7&start=23.30&end=10.0,condition=Condition[id=condition://android/schedule?days=6.7&start=23.30&end=10.0,summary=...,line1=...,line2=...,icon=0,state=STATE_FALSE,flags=2],component=ComponentInfo{android/com.android.server.notification.ScheduleConditionProvider}]
+                     ZenRule[enabled=false,snoozing=false,name=活动,zenMode=ZEN_MODE_ALARMS,conditionId=condition://android/event?userId=-10000&calendar=&reply=1,condition=Condition[id=condition://android/event?userId=-10000&calendar=&reply=1,summary=...,line1=...,line2=...,icon=0,state=STATE_FALSE,flags=2],component=ComponentInfo{android/com.android.server.notification.EventConditionProvider}]
+    mUser=0
+    mConfig=allow(calls=true,callsFrom=1,repeatCallers=false,messages=false,messagesFrom=1,events=false,reminders=true)
+      manualRule=null
+      automaticRules=ZenRule[enabled=false,snoozing=false,name=周一至周五夜间,zenMode=ZEN_MODE_ALARMS,conditionId=condition://android/schedule?days=1.2.3.4.5&start=22.0&end=7.0,condition=Condition[id=condition://android/schedule?days=1.2.3.4.5&start=22.0&end=7.0,summary=...,line1=...,line2=...,icon=0,state=STATE_FALSE,flags=2],component=ComponentInfo{android/com.android.server.notification.ScheduleConditionProvider}]
+                     ZenRule[enabled=false,snoozing=false,name=周末,zenMode=ZEN_MODE_ALARMS,conditionId=condition://android/schedule?days=6.7&start=23.30&end=10.0,condition=Condition[id=condition://android/schedule?days=6.7&start=23.30&end=10.0,summary=...,line1=...,line2=...,icon=0,state=STATE_FALSE,flags=2],component=ComponentInfo{android/com.android.server.notification.ScheduleConditionProvider}]
+                     ZenRule[enabled=false,snoozing=false,name=活动,zenMode=ZEN_MODE_ALARMS,conditionId=condition://android/event?userId=-10000&calendar=&reply=1,condition=Condition[id=condition://android/event?userId=-10000&calendar=&reply=1,summary=...,line1=...,line2=...,icon=0,state=STATE_FALSE,flags=2],component=ComponentInfo{android/com.android.server.notification.EventConditionProvider}]
+    mEffectsSuppressed=false
+    mDefaultPhoneApp=null
+    RepeatCallers.mThresholdMinutes=0
+    mSubscriptions={condition://android/schedule?days=6.7&start=23.30&end=10.0=ComponentInfo{android/com.android.server.notification.ScheduleConditionProvider}, condition://android/schedule?days=1.2.3.4.5&start=22.0&end=7.0=ComponentInfo{android/com.android.server.notification.ScheduleConditionProvider}, condition://android/event?userId=-10000&calendar=&reply=1=ComponentInfo{android/com.android.server.notification.EventConditionProvider}}
+
+  Zen Log:
+    12-06 11:49:09.821 config: readXml,ZenModeConfig[user=0,allowCalls=true,allowRepeatCallers=false,allowMessages=false,allowCallsFrom=contacts,allowMessagesFrom=contacts,allowReminders=true,allowEvents=false,allowMusic=false,allowAlarm=true,allowVibrate=true,allowLight=true,automaticRules={8401886771eb4ee0852c04f9d828cba1=ZenRule[enabled=false,snoozing=false,name=周一至周五夜间,zenMode=ZEN_MODE_ALARMS,conditionId=condition://android/schedule?days=1.2.3.4.5&start=22.0&end=7.0,condition=Condition[id=condition://android/schedule?days=1.2.3.4.5&start=22.0&end=7.0,summary=...,line1=...,line2=...,icon=0,state=STATE_FALSE,flags=2],component=ComponentInfo{android/com.android.server.notification.ScheduleConditionProvider}], 75ca0fcdfa1e45c2a426e9a3ce655f9a=ZenRule[enabled=false,snoozing=false,name=周末,zenMode=ZEN_MODE_ALARMS,conditionId=condition://android/schedule?days=6.7&start=23.30&end=10.0,condition=Condition[id=condition://android/schedule?days=6.7&start=23.30&end=10.0,summary=...,line1=...,line2=...,icon=0,state=STATE_FALSE,flags=2],component=ComponentInfo{android/com.android.server.notification.ScheduleConditionProvider}], 62ccc8c9118d4469b7d5f35a9ad48809=ZenRule[enabled=false,snoozing=false,name=活动,zenMode=ZEN_MODE_ALARMS,conditionId=condition://android/event?userId=-10000&calendar=&reply=1,condition=Condition[id=condition://android/event?userId=-10000&calendar=&reply=1,summary=...,line1=...,line2=...,icon=0,state=STATE_FALSE,flags=2],component=ComponentInfo{android/com.android.server.notification.EventConditionProvider}]},manualRule=null],Diff[allowCallsFrom:3->1,allowMessagesFrom:3->1,automaticRule[44faccfa5a4b4818954b21e999ff956a]:delete,automaticRule[8401886771eb4ee0852c04f9d828cba1]:insert,automaticRule[f93491a96b80470f81262592718e0132]:delete,automaticRule[75ca0fcdfa1e45c2a426e9a3ce655f9a]:insert,automaticRule[564c507f79fd4c58ab2235b8773e6ad5]:delete,automaticRule[62ccc8c9118d4469b7d5f35a9ad48809]:insert]
+    12-06 11:49:09.822 subscribe: condition://android/schedule?days=1.2.3.4.5&start=22.0&end=7.0,ok
+    12-06 11:49:09.823 subscribe: condition://android/schedule?days=6.7&start=23.30&end=10.0,ok
+    12-06 11:49:09.823 subscribe: condition://android/event?userId=-10000&calendar=&reply=1,ok
+
+  Ranking Config:
+      com.icarbonx.meum (10178) priority=MAX
+
+  Notification listeners:
+    All notification listeners (4) enabled for current profiles:
+      ComponentInfo{com.icarbonx.meum/com.icarbonx.meum.project_icxstrap.setting.service.MessageNotificationListenerService}
+      ComponentInfo{cn.ginshell.bong/cn.ginshell.bong.notify.NotificationDetectServiceT}
+      ComponentInfo{com.xiaomi.xmsf/com.xiaomi.xmsf.push.service.notificationcollection.NotificationListener}
+      ComponentInfo{com.solarexsoft.bongsdktest/com.solarexsoft.bongsdktest.SolarexNotificationListener}
+    Live notification listeners (3):
+      ComponentInfo{com.android.systemui/com.android.systemui.statusbar.phone.PhoneStatusBar} (user -1): android.service.notification.INotificationListener$Stub$Proxy@c4bea4e SYSTEM
+      ComponentInfo{com.xiaomi.xmsf/com.xiaomi.xmsf.push.service.notificationcollection.NotificationListener} (user 0): android.service.notification.INotificationListener$Stub$Proxy@40ab76f
+      ComponentInfo{com.icarbonx.meum/com.icarbonx.meum.project_icxstrap.setting.service.MessageNotificationListenerService} (user 0): android.service.notification.INotificationListener$Stub$Proxy@b4e1c7c
+    mListenerHints: 0
+    mListenersDisablingEffects: ()
+
+  Policy access:
+    mPolicyAccess: com.android.server.notification.NotificationManagerService$PolicyAccess@d81905
+
+  Condition providers:
+    All condition providers (0) enabled for current profiles:
+    Live condition providers (3):
+      ComponentInfo{android/com.android.server.notification.CountdownConditionProvider} (user 0): android.service.notification.ConditionProviderService$Provider@2805d5a SYSTEM
+      ComponentInfo{android/com.android.server.notification.ScheduleConditionProvider} (user 0): android.service.notification.ConditionProviderService$Provider@ab55b8b SYSTEM
+      ComponentInfo{android/com.android.server.notification.EventConditionProvider} (user 0): android.service.notification.ConditionProviderService$Provider@99e8468 SYSTEM
+    mRecords(3):
+      ConditionRecord[id=condition://android/schedule?days=1.2.3.4.5&start=22.0&end=7.0,component=ComponentInfo{android/com.android.server.notification.ScheduleConditionProvider},subscribed=true]
+      ConditionRecord[id=condition://android/schedule?days=6.7&start=23.30&end=10.0,component=ComponentInfo{android/com.android.server.notification.ScheduleConditionProvider},subscribed=true]
+      ConditionRecord[id=condition://android/event?userId=-10000&calendar=&reply=1,component=ComponentInfo{android/com.android.server.notification.EventConditionProvider},subscribed=true]
+    mSystemConditionProviders: {schedule, event, countdown}
+    EventConditionProvider:
+      mConnected=true
+      mRegistered=true
+      mBootComplete=true
+      mNextAlarmTime=Thu Dec 07 11:49:51 GMT+08:00 2017 (1512618591077), in +23h59m44s857ms, now=Wed Dec 06 11:50:06 GMT+08:00 2017 (1512532206220)
+      mSubscriptions=
+        condition://android/event?userId=-10000&calendar=&reply=1
+      mTrackers=
+        user=0
+          mCallback=com.android.server.notification.EventConditionProvider$2@5464081
+          mRegistered=true
+          u=0
+    ScheduleConditionProvider:
+      mConnected=true
+      mRegistered=true
+      mSubscriptions=
+          condition://android/schedule?days=6.7&start=23.30&end=10.0
+          condition://android/schedule?days=1.2.3.4.5&start=22.0&end=7.0
+      mNextAlarmTime=Wed Dec 06 22:00:00 GMT+08:00 2017 (1512568800000), in +10h9m53s780ms, now=Wed Dec 06 11:50:06 GMT+08:00 2017 (1512532206220)
+    CountdownConditionProvider:
+      mConnected=true
+      mTime=0
+
+  Group summaries:
+
+  Banned Packages:
