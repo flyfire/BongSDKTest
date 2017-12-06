@@ -24,8 +24,12 @@ dependencies {
     androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
         exclude group: 'com.android.support', module: 'support-annotations'
     })
+    compile('cn.bong.android:android-common:1.1.6') {
+        // 去除android-common中的 support 重复引用
+        exclude(group: 'com.android.support', module: 'design')
+    }
     compile 'com.android.support:appcompat-v7:25.+'
     compile 'com.android.support.constraint:constraint-layout:1.0.0-alpha7'
     testCompile 'junit:junit:4.12'
-    compile "cn.bong.android:bongsdk:2.5.1"
+    compile "cn.bong.android:bongsdk:2.5.4"
 }

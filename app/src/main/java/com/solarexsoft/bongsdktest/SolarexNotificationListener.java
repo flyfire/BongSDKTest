@@ -26,7 +26,7 @@ public class SolarexNotificationListener extends NotificationListenerService {
         final String content = notification.getString(Notification.EXTRA_TEXT);
         Log.d(TAG, title + "@" + content);
         String pkgName = sbn.getPackageName();
-        if (!TextUtils.isEmpty(pkgName)) {
+        if (!TextUtils.isEmpty(pkgName) && !TextUtils.isEmpty(content)) {
             BongManager manager = MemoryCache.mBong.fetchBongManager();
             Log.d(TAG, "manager = " + manager);
             if (manager != null) {
